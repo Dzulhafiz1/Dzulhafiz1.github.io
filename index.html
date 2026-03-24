@@ -7,11 +7,17 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+  <!-- Constellation background -->
+  <canvas id="constellationCanvas"></canvas>
+
+  <!-- Noise texture overlay -->
+  <div class="noise-overlay"></div>
+
   <main class="page">
     <section class="hero">
       <h1>Muhammad Dzulhafiz</h1>
-      <p class="subtitle">C++ | Python | Graphics | Simulation | Automation</p>
-
+      <p class="subtitle">C++ · Python · Graphics · Simulation · Automation</p>
       <div class="intro">
         <p>Final-year Computer Science student graduating April 2026.</p>
         <p>I build AI tools, automation systems, and real-time 3D graphics applications.</p>
@@ -27,15 +33,8 @@
           <h2>THALASSIC</h2>
           <p class="date">Sep 22 – Nov 22</p>
         </div>
-
         <img src="projects/thalassic/thumb.JPG" alt="Thalassic preview" class="project-image" />
-
-        <p class="description">
-          Thalassic is the first game I developed with my groupmates, created as an
-          introduction to game development and building core gameplay mechanics, user
-          interface systems, and level interaction while exploring puzzle-based mechanics.
-        </p>
-
+        <p class="description">Thalassic is the first game I developed with my groupmates, created as an introduction to game development and building core gameplay mechanics, user interface systems, and level interaction while exploring puzzle-based mechanics.</p>
         <div class="tags">
           <span class="tag">C</span>
           <span class="tag">Game Dev</span>
@@ -47,27 +46,12 @@
           <h2>Custom Game Engine (2D)</h2>
           <p class="date">Sep 23 – Apr 24</p>
         </div>
-
         <img src="projects/engine2d/thumb.png" alt="2D Engine preview" class="project-image" />
-
-        <p class="description">
-          This project involved building a 2D custom game engine during my Year 2 Software
-          Engineering module. My primary role was in the Graphics Programming, where I
-          developed a batch-based 2D rendering system supporting textures, sprites, fonts,
-          and animations. I also implemented scene systems such as framebuffers, entity
-          picking, and particle effects.
-        </p>
-
+        <p class="description">This project involved building a 2D custom game engine during my Year 2 Software Engineering module. My primary role was in the Graphics Programming, where I developed a batch-based 2D rendering system supporting textures, sprites, fonts, and animations. I also implemented scene systems such as framebuffers, entity picking, and particle effects.</p>
         <div class="tags">
-          <span class="tag">GLFW</span>
-          <span class="tag">C++17</span>
-          <span class="tag">OpenGL 4.5</span>
-          <span class="tag">ImGui</span>
-          <span class="tag">Inguizmo</span>
-          <span class="tag">Freetype</span>
-          <span class="tag">Game Engine Dev</span>
-          <span class="tag">ECS</span>
-          <span class="tag">GLAD</span>
+          <span class="tag">GLFW</span><span class="tag">C++17</span><span class="tag">OpenGL 4.5</span>
+          <span class="tag">ImGui</span><span class="tag">Imguizmo</span><span class="tag">Freetype</span>
+          <span class="tag">Game Engine Dev</span><span class="tag">ECS</span><span class="tag">GLAD</span>
         </div>
       </article>
 
@@ -76,51 +60,25 @@
           <h2>MOLEDY</h2>
           <p class="date">Sep 23 – Apr 24</p>
         </div>
-
         <img src="projects/moledy/thumb.png" alt="Moledy preview" class="project-image" />
-
-        <p class="description">
-          Moledy is a 2D platformer built using my custom game engine. Players control a mole
-          digging through underground levels to reach the surface. It is one of the most enjoyable
-          projects I have built, as it allowed me to combine gameplay design with engine development.
-        </p>
-
+        <p class="description">Moledy is a 2D platformer built using my custom game engine. Players control a mole digging through underground levels to reach the surface. It is one of the most enjoyable projects I have built, as it allowed me to combine gameplay design with engine development.</p>
         <div class="tags">
           <span class="tag">C++</span>
           <span class="tag">Game Dev</span>
         </div>
       </article>
 
-<article class="project-card"
-data-media="
-projects/engine3d/vid_1.mp4,
-projects/engine3d/vid_2.mp4,
-projects/engine3d/vid_3.mp4
-">        <div class="card-top">
+      <article class="project-card" data-media="projects/engine3d/vid_1.mp4,projects/engine3d/vid_2.mp4,projects/engine3d/vid_3.mp4">
+        <div class="card-top">
           <h2>Custom Game Engine (3D)</h2>
           <p class="date">Sep 24 – Apr 25</p>
         </div>
-
         <img src="projects/engine3d/thumb.png" alt="3D Engine preview" class="project-image" />
-
-        <p class="description">
-          A custom 3D game engine built during my Year 3 studies. I worked as the Graphics
-          Programmer, where I was responsible for designing and implementing the rendering
-          pipeline. My work included implementing PBR lighting, shadow mapping, model loading,
-          water rendering, and video playback, as well as systems such as framebuffers and
-          post-processing effects. I also incorporated optimisation techniques such as deferred
-          rendering and view frustum culling to improve rendering performance and efficiency.
-        </p>
-
+        <p class="description">A custom 3D game engine built during my Year 3 studies. I worked as the Graphics Programmer, responsible for designing and implementing the rendering pipeline. My work included PBR lighting, shadow mapping, model loading, water rendering, and video playback, as well as framebuffers, post-processing, deferred rendering, and view frustum culling.</p>
         <div class="tags">
-          <span class="tag">GLFW</span>
-          <span class="tag">C++17</span>
-          <span class="tag">OpenGL 4.5</span>
-          <span class="tag">Freetype</span>
-          <span class="tag">ImGuizmo</span>
-          <span class="tag">ECS</span>
-          <span class="tag">Game Engine Dev</span>
-          <span class="tag">Assimp</span>
+          <span class="tag">GLFW</span><span class="tag">C++17</span><span class="tag">OpenGL 4.5</span>
+          <span class="tag">Freetype</span><span class="tag">ImGuizmo</span><span class="tag">ECS</span>
+          <span class="tag">Game Engine Dev</span><span class="tag">Assimp</span>
         </div>
       </article>
 
@@ -129,18 +87,8 @@ projects/engine3d/vid_3.mp4
           <h2>LOST</h2>
           <p class="date">Sep 24 – Apr 25</p>
         </div>
-
         <img src="projects/lost/thumb.png" alt="Lost preview" class="project-image" />
-
-        <p class="description">
-          Lost is a 3D game built using my custom 3D game engine, where players take on the role
-          of a rat navigating through sewers. The project focuses on creating a more visually
-          realistic experience, with scenes containing multiple dynamic light sources and
-          shadow-driven visual effects. Developing this game was technically challenging as it
-          required careful handling of lighting, materials, and rendering performance while
-          maintaining visual quality.
-        </p>
-
+        <p class="description">Lost is a 3D game built using my custom 3D game engine, where players take on the role of a rat navigating through sewers. The project focuses on a visually realistic experience with multiple dynamic light sources and shadow-driven visual effects, requiring careful handling of lighting, materials, and rendering performance.</p>
         <div class="tags">
           <span class="tag">C++</span>
           <span class="tag">Game Dev</span>
@@ -152,15 +100,8 @@ projects/engine3d/vid_3.mp4
           <h2>Computer Graphics Projects</h2>
           <p class="date">Jan 23 – Apr 23</p>
         </div>
-
         <img src="projects/graphics/thumb.png" alt="Computer Graphics preview" class="project-image" />
-
-        <p class="description">
-          These are some of the graphics projects I worked on during my time in school,
-          showcasing core computer graphics concepts including instancing, fog effects,
-          and ray tracing.
-        </p>
-
+        <p class="description">These are some of the graphics projects I worked on during my time in school, showcasing core computer graphics concepts including instancing, fog effects, and ray tracing.</p>
         <div class="tags">
           <span class="tag">C++</span>
           <span class="tag">Computer Graphics</span>
@@ -176,85 +117,158 @@ projects/engine3d/vid_3.mp4
   </div>
 
 <script>
-const cards = document.querySelectorAll(".project-card");
-const modal = document.getElementById("projectModal");
-const closeBtn = document.getElementById("closeModal");
-const modalMedia = document.getElementById("modalMedia");
+  /* ── Constellation Background ── */
+  (function () {
+    const canvas = document.getElementById('constellationCanvas');
+    const ctx    = canvas.getContext('2d');
 
-function openModal(mediaString) {
-  modalMedia.innerHTML = "";
+    const PARTICLE_COUNT   = 72;
+    const CONNECT_DIST     = 148;
+    const MOUSE_REPEL_DIST = 110;
+    const MOUSE_REPEL_STR  = 0.012;
+    const BASE_SPEED       = 0.28;
+    const DOT_COLOR        = '90, 82, 72';
+    const LINE_COLOR       = '110, 100, 88';
 
-  const files = mediaString
-    .split(",")
-    .map(item => item.trim())
-    .filter(Boolean);
+    let W, H, mouse = { x: -999, y: -999 };
+    let particles = [];
 
-  files.forEach(path => {
-    const lower = path.toLowerCase();
-
-    if (lower.endsWith(".mp4") || lower.endsWith(".webm") || lower.endsWith(".mov")) {
-      const video = document.createElement("video");
-      video.src = path;
-      video.controls = true;
-      video.preload = "metadata";
-      video.playsInline = true;
-      video.className = "modal-video";
-
-      video.onerror = () => {
-        console.error("Failed to load video:", path);
-      };
-
-      modalMedia.appendChild(video);
-      return;
+    function resize() {
+      W = canvas.width  = window.innerWidth;
+      H = canvas.height = window.innerHeight;
     }
 
-    if (
-      lower.endsWith(".png") ||
-      lower.endsWith(".jpg") ||
-      lower.endsWith(".jpeg")
-    ) {
-      const img = document.createElement("img");
-      img.src = path;
-      img.alt = "";
-      img.className = "modal-image";
-      img.loading = "lazy";
-
-      img.onerror = () => {
-        console.error("Failed to load image:", path);
-      };
-
-      modalMedia.appendChild(img);
-      return;
+    function Particle() {
+      this.x  = Math.random() * W;
+      this.y  = Math.random() * H;
+      this.vx = (Math.random() - 0.5) * BASE_SPEED;
+      this.vy = (Math.random() - 0.5) * BASE_SPEED;
+      this.r  = Math.random() * 1.6 + 0.8;
     }
 
-    console.error("Unsupported file:", path);
-  });
+    Particle.prototype.update = function () {
+      const dx   = this.x - mouse.x;
+      const dy   = this.y - mouse.y;
+      const dist = Math.sqrt(dx * dx + dy * dy);
+      if (dist < MOUSE_REPEL_DIST && dist > 0) {
+        const force = (MOUSE_REPEL_DIST - dist) / MOUSE_REPEL_DIST;
+        this.vx += (dx / dist) * force * MOUSE_REPEL_STR;
+        this.vy += (dy / dist) * force * MOUSE_REPEL_STR;
+      }
 
-  modal.classList.add("show");
-  document.body.classList.add("modal-open");
-}
+      const speed = Math.sqrt(this.vx * this.vx + this.vy * this.vy);
+      if (speed > BASE_SPEED * 2.5) {
+        this.vx = (this.vx / speed) * BASE_SPEED * 2.5;
+        this.vy = (this.vy / speed) * BASE_SPEED * 2.5;
+      }
 
-function closeModal() {
-  modal.classList.remove("show");
-  document.body.classList.remove("modal-open");
-  modalMedia.innerHTML = "";
-}
+      this.vx *= 0.9985;
+      this.vy *= 0.9985;
+      if (speed < BASE_SPEED * 0.4) {
+        this.vx += (Math.random() - 0.5) * BASE_SPEED * 0.003;
+        this.vy += (Math.random() - 0.5) * BASE_SPEED * 0.003;
+      }
 
-cards.forEach(card => {
-  card.addEventListener("click", () => {
-    openModal(card.dataset.media || "");
-  });
-});
+      this.x += this.vx;
+      this.y += this.vy;
 
-closeBtn.addEventListener("click", closeModal);
+      if (this.x < 0)  this.x = W;
+      if (this.x > W)  this.x = 0;
+      if (this.y < 0)  this.y = H;
+      if (this.y > H)  this.y = 0;
+    };
 
-modal.addEventListener("click", (e) => {
-  if (e.target === modal) closeModal();
-});
+    function draw() {
+      ctx.clearRect(0, 0, W, H);
 
-document.addEventListener("keydown", (e) => {
-  if (e.key === "Escape") closeModal();
-});
+      for (let i = 0; i < particles.length; i++) {
+        particles[i].update();
+        const p = particles[i];
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(${DOT_COLOR}, 0.55)`;
+        ctx.fill();
+      }
+
+      for (let i = 0; i < particles.length; i++) {
+        for (let j = i + 1; j < particles.length; j++) {
+          const a  = particles[i];
+          const b  = particles[j];
+          const dx = a.x - b.x;
+          const dy = a.y - b.y;
+          const d  = Math.sqrt(dx * dx + dy * dy);
+          if (d < CONNECT_DIST) {
+            const alpha = (1 - d / CONNECT_DIST) * 0.28;
+            ctx.beginPath();
+            ctx.moveTo(a.x, a.y);
+            ctx.lineTo(b.x, b.y);
+            ctx.strokeStyle = `rgba(${LINE_COLOR}, ${alpha})`;
+            ctx.lineWidth   = 0.8;
+            ctx.stroke();
+          }
+        }
+      }
+
+      requestAnimationFrame(draw);
+    }
+
+    function init() {
+      resize();
+      particles = Array.from({ length: PARTICLE_COUNT }, () => new Particle());
+      draw();
+    }
+
+    window.addEventListener('resize', () => {
+      resize();
+      particles = Array.from({ length: PARTICLE_COUNT }, () => new Particle());
+    });
+    window.addEventListener('mousemove', e => { mouse.x = e.clientX; mouse.y = e.clientY; });
+    window.addEventListener('mouseleave', () => { mouse.x = -999; mouse.y = -999; });
+
+    init();
+  })();
+
+  /* ── Modal ── */
+  const cards      = document.querySelectorAll('.project-card');
+  const modal      = document.getElementById('projectModal');
+  const closeBtn   = document.getElementById('closeModal');
+  const modalMedia = document.getElementById('modalMedia');
+
+  function openModal(mediaString) {
+    modalMedia.innerHTML = '';
+    const files = mediaString.split(',').map(s => s.trim()).filter(Boolean);
+    files.forEach(path => {
+      const lower = path.toLowerCase();
+      if (lower.endsWith('.mp4') || lower.endsWith('.webm') || lower.endsWith('.mov')) {
+        const video = document.createElement('video');
+        video.src = path; video.controls = true;
+        video.preload = 'metadata'; video.playsInline = true;
+        video.className = 'modal-video';
+        modalMedia.appendChild(video);
+        return;
+      }
+      if (lower.endsWith('.png') || lower.endsWith('.jpg') || lower.endsWith('.jpeg')) {
+        const img = document.createElement('img');
+        img.src = path; img.alt = '';
+        img.className = 'modal-image'; img.loading = 'lazy';
+        modalMedia.appendChild(img);
+        return;
+      }
+    });
+    modal.classList.add('show');
+    document.body.classList.add('modal-open');
+  }
+
+  function closeModal() {
+    modal.classList.remove('show');
+    document.body.classList.remove('modal-open');
+    modalMedia.innerHTML = '';
+  }
+
+  cards.forEach(card => card.addEventListener('click', () => openModal(card.dataset.media || '')));
+  closeBtn.addEventListener('click', closeModal);
+  modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 </script>
 </body>
 </html>
